@@ -1,0 +1,1342 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Red+Hat+Display:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+/*!  ОБНУЛЕНИЕ */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {vertical-align: top;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1;
+}
+body {
+    height: 100%;
+    line-height: 1;
+    background-color: #1B1B1B;
+    font-family: Red Hat Display;
+}
+/*!-------------------------------*/
+
+/* begin */
+
+/* header */
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.header__nav {
+    margin-right: -40px;
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav li {
+    margin-right: 30px;
+}
+
+.header__nav a{
+    text-decoration: none;
+    color: #B6B6B6;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header__nav .home a {
+    color: #fff;
+
+}
+
+.about a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header__nav_two ul {
+    display: flex;
+}
+
+.header__nav_two li {
+    margin-left: 20px;
+}
+.header__nav_two a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header__nav_two .header__nav_two_number {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.header__nav_two .header__nav_two_eng {
+    color: #B6B6B6;
+}
+
+.header__nav_two .header__nav_two_contact {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    padding: 10px 30px;
+    background-color: #B6B6B6;
+    border-radius: 10px ;
+}
+.header__nav_two .header__nav_two_contact:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/*Page__one*/
+.page__one {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.page__one_text {
+    margin: 50px 0px 150px 0px;
+    margin-right: -250px;
+}
+
+.page__one_text h1{
+    font-family: Nova Square;
+    font-size: 100px;
+}
+
+.page__one_text p{
+    font-weight: 500;
+    margin: 50px 0px 40px 0px;
+    line-height: 20px;
+}
+
+.page__one_img {
+    margin: auto 0;
+}
+.page__one_img img {
+    margin-left: 50px;
+}
+
+.page__one_text .btn a{
+    padding: 15px 60px 15px 60px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+.page__one_text .btn a:hover {
+    background-color: #B6B6B6;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/*Начало окна наплывающего на главный wrapper*/
+
+.page__one_wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: -80px;
+    z-index: 1;
+}
+
+.wrapper__category ul{
+    display: flex;
+    padding: 15px 0px 15px 0px;
+}
+
+.wrapper__category_distance  {
+    background-color: #272727;
+    border-radius: 10px 0px 0px 0px;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+}
+
+
+.wrapper__category_hourly {
+    background-color: #484848;
+    border-radius: 0px 10px 0px 0px;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+}
+
+/*Середина окна наплывающего на главный wrapper*/
+
+.wrapper__information {
+    display: flex;
+    justify-content: space-around;
+    background-color: #484848;
+    color: #fff;
+    margin: auto 0;
+    border-radius: 0px 10px 10px 10px;
+    align-items: center;
+}
+
+.line {
+    width: 1px;
+    height: 35px;
+    background-color: #fff;
+}
+
+.wrapper__information_search {
+    padding: 25px 40px 25px 40px;
+    background-color: #fff;
+    margin: 5px 0px;
+    border-radius: 10px;
+    color: #000;
+}
+.wrapper__information_search:hover {
+    background-color: #B6B6B6;
+    color: #000;
+}
+
+.wrapper__information_page_top {
+    font-size: 14px;
+    color: #CBCBCB;
+    padding-bottom: 10px;
+}
+
+/* Page_two */
+
+.page__two {
+    max-width: 1000px;
+    margin: 80px auto;
+}
+
+.page__two h2 {
+    color: #fff;
+    font-size: 70px;
+    font-family: Nova Square;
+    margin-bottom: 20px;
+}
+
+.page__two p{
+    color: #9F9F9F;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.page__two_wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    ;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.page__two_wrapper p {
+    color: #fff;
+    max-width: 500px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 30px 0px 10px 0px;
+
+}
+
+/* PAGE__THREE */
+
+.page__three {
+    max-width: 1200px;
+    margin: 0 auto;
+    color:#fff;
+}
+
+.page__three h2 {
+    color: #fff;
+    font-size: 70px;
+    font-family: Nova Square;
+    margin-bottom: 20px;
+}
+
+.page__three p {
+    color: #9F9F9F;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.page__three_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* one */
+.page__three_wrapper_column_one {
+    background-color: #333;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.page__three_wrapper_column_one img {
+    border-radius: 10px;
+}
+
+.page__three_wrapper_column_one h3{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.page__three_wrapper_column_one p{
+    height: 125px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align:justify;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.column_one_btn {
+    text-align: left;
+    margin: 20px 0px;
+}
+.column_one_btn a:hover {
+    background-color: #B6B6B6;
+    color: #000;
+}
+.column_two_btn a:hover {
+    background-color: #B6B6B6;
+    color: #000;
+}
+.column_three_btn a:hover {
+    background-color: #B6B6B6;
+    color: #000;
+}
+.column_four_btn a:hover {
+    background-color: #B6B6B6;
+    color: #000;
+}
+
+.column_one_btn a{
+    color: #000;
+    padding: 8px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+/* two */
+.page__three_wrapper_column_two {
+    background-color: #333;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.page__three_wrapper_column_two img {
+    border-radius: 10px;
+}
+
+.page__three_wrapper_column_two h3{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.page__three_wrapper_column_two p{
+    height: 125px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align:justify;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.column_two_btn {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.column_two_btn a{
+    color: #000;
+    padding: 8px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* three */
+
+.page__three_wrapper_column_three {
+    background-color: #333;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.page__three_wrapper_column_three img {
+    border-radius: 10px;
+}
+
+.page__three_wrapper_column_three h3{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.page__three_wrapper_column_three p{
+    height: 125px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align:justify;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.column_three_btn {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.column_three_btn a{
+    color: #000;
+    padding: 8px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* four */
+
+.page__three_wrapper_column_four {
+    background-color: #333;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.page__three_wrapper_column_four img {
+    border-radius: 10px;
+}
+
+.page__three_wrapper_column_four h3{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.page__three_wrapper_column_four p{
+    height: 125px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align:justify;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.column_four_btn {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.column_four_btn a{
+    color: #000;
+    padding: 8px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* page__four */
+
+.page__four {
+    max-width: 1000px;
+    margin: 80px auto;
+}
+
+.page__four_h2 {
+    font-family: Nova Square;
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.page__four_p {
+    font-size: 20px;
+    color: #9F9F9F;
+    margin-bottom: 20px;
+}
+
+/* page__five */
+
+.page__five {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.page__five_left_column_mersedes_benz_v_class {
+    font-size: 50px;
+    margin-bottom: 20px;   
+}
+
+.page__five_left_column p {
+    font-size: 25px;  
+    font-weight: 200; 
+    line-height: 35px;
+    margin-bottom: 100px;
+}
+
+
+
+.blur {
+    margin-top: -250px;
+    height: 200px;
+    background-color: rgb(255, 255, 255, 0.5);
+    filter: blur(100px);
+    z-index: 2;
+}
+
+.page__five_right_column p {
+    font-size: 40px;
+    font-weight: 700;
+}
+.page__five_right_column p span {
+    font-weight: 200;
+}
+
+/* page__six_car */
+
+.page__six_wrapper_car {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-right: 100px;
+
+}
+
+.page__six_car {
+    /* margin-left: 500px; */
+    margin-top: -100px;
+}
+
+.page__five_left_column_btn a {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 35px;
+    position: absolute;
+}
+.page__five_left_column_btn a:hover {
+    background-color: #B6B6B6;
+    color: #000;
+}
+
+.page__five_left_column_btn {
+    max-width: 1000px;
+    margin: -50px auto 0 auto;
+}
+
+/* page__seven */
+
+.page__seven {
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.arrow_left {
+    margin-right: 40px;
+    display: inline-block;
+}
+.arrow_left:hover {
+    transform: translate(-10%, 0px);
+    position: relative;
+    
+}
+.arrow_right {
+    margin-right: 40px;
+    display: inline-block;
+}
+.arrow_right:hover {
+    transform: translate(10%, 0px);
+    position: relative;
+    
+}
+
+.page__seven_collections_cars {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* mersedes_benz_v_class */
+
+.collections_cars_mersedes_benz_v_class {
+    background-color: #494949;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.collections_cars_mersedes_benz_v_class p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.mersedes_benz_v_class:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+/* mersedes_benz_s_class */
+
+.collections_cars_mersedes_benz_s_class {
+    background-color: #494949;
+    border-radius: 10px;
+}
+.collections_cars_mersedes_benz_s_class p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.mersedes_benz_s_class:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+/* bmw_m5_f90_competition */
+
+.collections_cars_bmw_m5_f90_competition {
+    background-color: #494949;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.collections_cars_bmw_m5_f90_competition p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.bmw_m5_f90_competition:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+/* page__eight */
+
+.page__eight {
+    padding: 40px 0px;
+    background-color: #fff;
+}
+
+.page__eight_brands {
+    display: flex;
+    justify-content:inherit;
+}
+
+/* page__nine */
+
+.page__nine {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.page__nine h2 {
+    font-size: 70px;
+    font-family: Nova Square;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.page__nine p {
+    font-size: 15px;
+    color: #9F9F9F;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.page__nine_h2_p {
+    font-size: 20px;
+    color: #9F9F9F;
+    margin-bottom: 40px;
+}
+
+.page__nine p span {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.choose__row_one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choose__row_two {
+    display: flex;
+    justify-content: space-between;
+}
+/* reservation */
+
+.choose__row_one_reservation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.choose__row_one_reservation img {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.background__reservation {
+    padding: 15px 60px 0px 60px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* drivers  */
+
+.choose__row_one_drivers {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.choose__row_one_drivers img {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.background__drivers {
+    padding: 15px 60px 0px 60px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* vehicles */
+
+.choose__row_one_vehicles {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+.choose__row_one_vehicles img {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.background__vehicles {
+    padding: 15px 60px 0px 60px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* payment */
+
+.choose__row_one_payment {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.choose__row_one_payment img {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.background__payment {
+    padding: 15px 60px 0px 60px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* page__ten */
+
+.page__ten {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.page__ten_title h2{
+    font-size: 70px;
+    font-family: Nova Square;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.page__ten_title p {
+    font-size: 20px;
+    color: #9F9F9F;
+    margin-bottom: 40px;
+}
+
+.page__ten_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page__ten_img img{
+    border-radius: 15px;
+}
+
+.form_username, .form_email, .form_number {
+    border-radius: 3px;
+    background-color: #3A3A3A;
+    color:#9C9C9C;
+    width: 550px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form_message {
+    border-radius: 3px;
+    background-color: #3A3A3A;
+    color:#9C9C9C;
+    width: 550px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 280px;
+}
+
+.submit_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit_flex p{
+    color: #fff;
+}
+
+.page__ten_form_confirm_button a{
+    color: #000;
+    background-color: #fff;
+    padding: 10px 35px;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+    background-color: #fff;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__wrapper_information {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer__information_left */
+
+.footer__information_left h3 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    padding-top: 100px;
+}
+
+.footer__information_left p {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.footer__form_mail {
+    background-color: #d1cdcd;
+    color:#000;
+    font-size: 16px;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.footer__information_left_btn a {
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 40px;
+    border-radius: 5px;   
+    margin-left: -160px;
+}
+
+.footer__information_left_btn a:hover {
+    background-color: #3A3A3A;
+}
+
+.footer__form_btn {
+    align-items: center;
+    display: flex;
+}
+
+/* footer__information_right */
+
+.footer__information_right img {
+    margin-top: 100px;
+}
+
+.footer__information_right_ul {
+    text-align: right;
+}
+
+.footer__information_right_ul li {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.li-One {
+    padding-top: 60px;
+}
+
+/* footer__contacts */
+
+.footer__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contacts_align {
+    text-align: center;
+    width: 220px;
+    height: 100px;
+    margin: 80px 0px;
+    vertical-align: middle;
+}
+
+.footer__contacts_align:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.footer__contacts_align p {
+    margin-top: 20px;
+}
+
+/* footer__autor */
+.footer__autor {
+    border-top: 1px solid #D8D8D8;
+    background-color: #fff;
+}
+
+
+.footer__arrow_up {
+    max-width: 1200px;
+    margin: -25px auto  0 auto;
+    display: flex;
+    justify-content: end;
+}
+
+.footer__arrow_up a:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.footer__autor_text {
+    text-align: center;
+    padding: 0px 0px 25px 0px ;
+}
+
+/* the end */
+
+/* Появление мерса */
+
+
+
+/* burger */
+.burger {
+    display: none;
+    width: 30px;
+    margin-bottom: 7px;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* Анимация появления заголовков */
+/* ------------------page__one_title_and_subTitle ------------*/
+/* title */
+.page__one_text h1 {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.page__one_text h1._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+/* subTitle */
+.page__one_text p {
+    transform: translate(0px, 100%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.page__one_text p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* ------------------page__two_title_and_subTitle ------------*/
+/* title */
+.page__two h2 {
+    transform: translate(0px, 100%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.page__two h2._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+/* subTitle */
+.page__two_subTitle {
+    transform: translate(0px, 100%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.page__two_subTitle._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* ------------------page__three_title_and_subTitle ------------*/
+/* title */
+.page__three_h2 {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.page__three_h2._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+/* subTitle */
+.page__three_p {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.page__three_p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* ------------------page__four_title_and_subTitle------------------------- */
+/* title */
+.page__four_h2 {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.page__four_h2._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+/* subTitle */
+.page__four_p {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.page__four_p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* ---------------car-------------- */
+.page__six_wrapper_car {
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.page__six_wrapper_car._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* ------------------page__four_title_and_subTitle------------------------- */
+/* title */
+.page__four_h2 {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.page__four_h2._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+/* subTitle */
+.page__four_p {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.page__four_p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* ------------------page__nine_title_and_subTitle--------------------- */
+/* title */
+.page__nine_title {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.page__nine_title._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+/* subTitle */
+.page__nine_h2_p {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.page__nine_h2_p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* ------------------page__ten_title_and_subTitle--------------------- */
+/* title */
+.page__ten_title h2 {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.page__ten_title h2._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+/* subTitle */
+.page__ten_title p {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+.page__ten_title p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* -------------------Появление блоков текста в page__three---------------------- */
+/* Появление будет с левой стороны, т.к.  translate -100%
+Применяется для первого блока */
+._anim-show_left_one {
+    transform: translate(-100%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+._anim-show_left_one._active,
+._active ._anim-show_left_one {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+/* Применяется для второго блока */
+._anim-show_left_two {
+    transform: translate(-100%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+._anim-show_left_two._active,
+._active ._anim-show_left_two {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+/* А это уже для двух правых блоков */
+/* Сейчас для правого первого (третьего) */
+._anim-show_right_three {
+    transform: translate(100%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+._anim-show_right_three._active,
+._active ._anim-show_right_three {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+/* Сейчас для правого второго (четвертого) */
+._anim-show_right_four{
+    transform: translate(100%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+._anim-show_right_four._active,
+._active ._anim-show_right_four {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+/* -----------Появление блоков на 9 странице-------------- */
+/* Первый блок слева вверх */
+._anim-choose_one_left{
+    transform: translate(-100%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+._anim-choose_one_left._active,
+._active ._anim-choose_one_left {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+/* Второй блок справа вверх */
+._anim-choose_two_right{
+    transform: translate(100%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+._anim-choose_two_right._active,
+._active ._anim-choose_two_right {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+/* Третий блок слева низ */
+._anim-choose_three_left{
+    transform: translate(-100%, 50%);
+    opacity: 0;
+    transition: all 0.8s ease 0.1s;
+}
+._anim-choose_three_left._active,
+._active ._anim-choose_three_left {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+/* Четвертый блок слева низ */
+._anim-choose_four_left{
+    transform: translate(100%, 50%);
+    opacity: 0;
+    transition: all 0.8s ease 0.1s;
+}
+._anim-choose_four_left._active,
+._active ._anim-choose_four_left {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+/* ------------ПОЯВЛЕНИЕ АВТОМОБИЛЕЙ---------- */
+/* .animation__up {
+    transform: scale(0);
+    transition: all 0.8s ease 0s;
+}
+.collections_cars_mersedes_benz_v_class._active .animation__up {
+    transform: scale(1);
+}
+.collections_cars_mersedes_benz_s_class._active .animation__up {
+    transform: scale(1);
+}
+.bmw_m5_f90 .animation__up {
+    transform: scale(1);
+} */
+
+/* Навигация */
+.header__nav li{
+    transform: translate(-120%, 0px);
+    transition: all 0.3s ease 0.8s;
+    opacity: 0;
+}
+.header__nav._active li {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* ----------------Car on one page---------- */
+
+.page__one_img {
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 1s;
+}
+.page__one_img._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* Появление элементов footera */
+ .footer__contacts_align {
+    transform: scale(0);
+    transition: all 0.8s ease 0s;
+}
+.footer__contacts_align._active {
+    transform: scale(1);
+}
+
+/* БЕГУЩАЯ СТРОКА */
+
+.page__eight_brands {
+    width: 100%;
+    animation: scroll 5s linear infinite;
+}
+.page__eight_brands:hover {
+    animation-play-state: paused;
+}
+.page__eight_brands .img {
+    width: 100%;
+    display: block;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+

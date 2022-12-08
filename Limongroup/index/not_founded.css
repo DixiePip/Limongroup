@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Red+Hat+Display:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body {
+    background: #1b1b1b url(/Limongroup/img/404_not_founded.jpg) no-repeat top / cover ;
+    font-family: Nova Square;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 150px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 380px;
+}
+.btn a{
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+}
+.btn a:hover {
+    background-color: #fff;
+    color: black;
+    border: black;
+}
+
+@media screen and (max-width: 1400px) {
+    h1 {
+        font-size: 40px;
+        padding-top: 150px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    h1 {
+        font-size: 40px;
+        padding-top: 100px;
+    }
+    .btn {
+        text-align: center;
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 30px;
+        padding-top: 70px;
+    }
+    .btn {
+        text-align: center;
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+    .btn {
+        text-align: center;
+        margin-top: 200px;
+    }
+}

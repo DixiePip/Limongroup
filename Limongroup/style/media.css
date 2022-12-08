@@ -1,0 +1,596 @@
+
+/* MEDIA SCREEN 1200 PX */
+@media screen and (max-width: 1200px) {
+    /* header__media_screen */
+    .header {
+        max-width: 1100px;
+    }
+    /* media screen page one */
+    .page__one {
+        max-width: 1000px;
+    }
+    .page__one_text h1{
+        font-size: 80px;
+    }
+    .page__one_text {
+        margin: 50px 0px 150px 0px;
+        margin-right: -160px;
+    }
+    .page__one_img img{
+        max-width: 700px;
+    }
+    /* media screen  page__one_wrapper*/
+    .page__one_wrapper {
+        max-width: 900px;
+    }
+    /* page__three_wrapper */
+    .page__three_wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr ;
+    }
+    .page__three_p, 
+    .page__three_h2 {
+        text-align: center;
+    }
+    /* media page__six_car */
+    .page__six_car {
+        margin-left: 380px;
+    }
+    /* page__eight */
+    .page__eight img{
+        max-width: 200px;
+    }
+    /* page ten */
+    .page__ten_title {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .page__ten_form {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .form_username, 
+    .form_email, 
+    .form_number, 
+    .form_message {
+        width: 450px;
+    }
+    .form_message {
+        height: 210px;
+    }
+    .page__ten_img img{
+        width: 500px;
+    }
+    .submit_flex p{
+        font-size: 14px;
+    }
+    .page__ten_form_confirm_button a {
+        padding: 10px 15px;
+    }
+    /* media footer */
+    .footer {
+        max-width: 1000px;
+    }
+    .footer__arrow_up {
+        margin-right: 100px;
+    }
+    .burger {
+        display: none;
+    }
+}
+/* MEDIA SCREEN 1050 PX */
+@media screen and (max-width: 1050px) {
+    /* header__media_screen */
+    .header {
+        max-width: 900px;
+    }
+    .header__nav ul {
+        display: none;
+    }
+    /* media screen page one */
+    .page__one {
+        max-width: 900px;
+    }
+    .page__one_text h1{
+        font-size: 70px;
+    }
+    .page__one_text {
+        margin: 50px 0px 150px 0px;
+        margin-right: -120px;
+    }
+    .page__one_img img{
+        max-width: 600px;
+    }
+    /* media screen  page__one_wrapper*/
+    .page__one_wrapper {
+        max-width: 800px;
+    }
+    /* page__two */
+    .page__two {
+        max-width: 900px;
+        margin: 80px auto;
+    }
+    .page__two_wrapper p{
+        max-width: 400px;
+    }
+    /* page__three_wrapper */
+    .page__three_wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 350px 350px ;
+        grid-template-rows: 1fr ;
+    }
+    .page__three_h2 {
+        text-align: center;
+    }
+    .page__three_p {
+        padding-bottom: 30px;
+    }
+    /* page__five */
+    .page__five {
+        max-width: 900px;
+    }
+    /* page__five_left_column_btn */
+    .page__five_left_column_btn  {
+        max-width: 900px;
+        margin: -100px auto 0px auto;
+    }
+    /* media page__six_car */
+    .page__six_car {
+        width: 600px;
+        margin-left: 350px;
+        
+    }
+
+    /* page__seven */
+    .page__seven {
+        max-width: 500px;
+        margin: 100px auto;
+        padding: 0 auto;
+    }
+    .page__seven_arrow {
+        text-align: center;
+    }
+    .page__seven_collections_cars {
+        margin: 30px auto;
+        display: block;
+    }
+    .collections_cars_mersedes_benz_v_class,
+    .collections_cars_mersedes_benz_s_class,
+    .collections_cars_bmw_m5_f90_competition {
+        text-align: center;
+        padding: 20px 0px;
+        margin-bottom: 40px;
+    }
+
+    /* page__nine */
+    .page__nine {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .choose__row_one, .choose__row_two {
+        display: block;
+        row-gap: 20px;
+        grid-template-columns: 500px;
+        text-align: center;
+    }
+    .choose__row_one_reservation, .choose__row_one_vehicles {
+        margin-bottom: 20px;
+    }
+
+    /* media page ten */
+    .page__ten {
+        max-width: 900px;
+    }
+    
+    .form_username, 
+    .form_email, 
+    .form_number, 
+    .form_message {
+        width: 350px;
+    }
+    .form_message {
+        height: 210px;
+    }
+    .page__ten_img img{
+        width: 500px;
+    }
+    .submit_flex p{
+        max-width: 200px;
+        font-size: 13px;
+    }
+    .page__ten_form_confirm_button a {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    /* media footer */
+    .footer {
+        max-width: 900px;
+    }
+    .footer__information_left h3 {
+        font-size: 40px;
+    }
+}
+
+/* MEDIA SCREEN 992 */
+
+@media screen and (max-width: 992px) {
+    /* header__media_screen */
+    .header {
+        max-width: 750px;
+    }
+    .header__nav ul {
+        display: none;
+    }
+    /* page one */
+    .page__one {
+        max-width: 750px;
+    }
+    .page__one_text h1{
+        font-size: 50px;
+    }
+    .page__one_text {
+        margin: 50px 0px 150px 0px;
+        margin-right: -30px;
+    }
+    .page__one_img img{
+        max-width: 500px;
+    }
+    /*  page__one_wrapper*/
+    .page__one_wrapper {
+        max-width: 700px;
+    }
+    .wrapper__information {
+        font-size: 14px;
+    }
+    /* page__two */
+    .page__two {
+        max-width: 750px;
+        margin: 80px auto;
+    }
+    .page__two_wrapper img {
+        max-width: 300px;
+    }
+    .page__two_wrapper p{
+        max-width: 400px;
+    }
+    /* page__three_wrapper */
+    .page__three_wrapper {
+        max-width: 750px;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 350px 350px ;
+        grid-template-rows: 1fr ;
+    }
+    .page__three_wrapper_column_one p,
+    .page__three_wrapper_column_two p,
+    .page__three_wrapper_column_three p,
+    .page__three_wrapper_column_four p {
+        text-align: center;
+    }
+    .page__three_h2 {
+        text-align: center;
+    }
+    .page__three_p {
+        max-width: 750px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .column_one_btn, 
+    .column_two_btn, 
+    .column_three_btn, 
+    .column_four_btn {
+        text-align: center;
+    }
+    /* page__four */
+    .page__four {
+        max-width: 750px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    /* page__five */
+    .page__five {
+        max-width: 750px;
+    }
+    /* blur */
+    .blur {
+        display: none;
+    }
+    /* page__five_left_column_btn */
+    .page__five_left_column_btn  {
+        max-width: 750px;
+        margin: -100px auto 0px auto;
+    }
+    .page__five_left_column_mersedes_benz_v_class {
+        font-size: 40px;
+    }
+    .page__five_left_column p {
+        font-size: 20px;
+    }
+    /* page__five_right_column */
+    .page__five_right_column p {
+        font-size: 30px;
+    }
+    /* media page__six_car */
+    .page__six_wrapper_car {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .page__six_car {
+        width: 500px;
+        margin-top:  -120px;
+        margin-left: 250px;
+    }
+
+    /* page__seven */
+    .page__seven {
+        max-width: 500px;
+        margin: 100px auto;
+        padding: 0 auto;
+    }
+    .page__seven_arrow {
+        text-align: center;
+    }
+    .page__seven_collections_cars {
+        display: block;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .collections_cars_mersedes_benz_v_class,
+    .collections_cars_mersedes_benz_s_class,
+    .collections_cars_bmw_m5_f90_competition {
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    /* page__eight */
+    .page__eight {
+        max-width: 100%;
+    }
+    .page__eight img {
+        max-width: 100px;
+    }
+    /* page__nine */
+    .page__nine {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .page__nine h2, .page__nine_h2_p {
+        text-align: center;
+    }
+    .choose__row_one, .choose__row_two {
+        display: block;
+        text-align: center;
+    }
+    .choose__row_one_reservation, 
+    .choose__row_one_vehicles, 
+    .choose__row_one_drivers,
+    .choose__row_one_payment
+    {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    /* page ten */
+    .page__ten {
+        max-width: 750px;
+    }
+    .page__ten_title h2, p{
+        text-align: center;
+    }
+    .form_message {
+        height: 150px;
+    }
+    .page__ten_img img{
+        width: 350px;
+    }
+    .page__ten_img {
+        display: block;
+        padding-top: 15px;
+    }
+    /* footer */
+    .footer {
+        max-width: 750px;
+    }
+    .footer__information_left h3 {
+        font-size: 40px;
+    }
+    .footer__information_left {
+        max-width: 300px;
+    }
+    .footer__information_left p{
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* header__media_screen */
+    .header {
+        max-width: 580px;
+    }
+    .header__nav_two  {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    /* page one */
+    .page__one {
+        max-width: 580px;
+        display: block;
+    }
+    .page__one_text h1{
+        font-size: 70px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .btn {
+        padding-top: 250px;
+    }
+    .page__one_img {
+        text-align: center;
+        margin-top: -420px;
+        padding-bottom: 200px;
+    }
+    .page__one_img img {
+        max-width: 500px;
+    }
+    /* Начало окна наплывающего на главный wrapper */
+    .wrapper__category {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .wrapper__information_1111111 {
+        display: block;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .wrapper__information {
+        max-width: 500px;
+        display: block;
+        text-align: center;
+    }
+    .wrapper__information_page1 {
+        padding-top: 10px;
+        margin-bottom: 10px ;
+    }
+    .wrapper__information_page2,
+    .wrapper__information_page3,
+    .wrapper__information_page4 {
+        margin: 10px auto;
+    }
+    .line {
+        width: 500px;
+        height: 1px;
+        background-color: #fff;
+    }
+
+    /* page__two */
+    .page__two {
+        max-width: 580px;
+        margin: 80px auto;
+    }
+    .page__two h2 {
+        text-align: center;
+    }
+    .page__two_wrapper {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .page__two_wrapper p{
+        margin: 0 auto;
+        text-align:justify;
+    }
+    /* page__three_wrapper */
+    .page__three {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+    .page__three_wrapper {
+        max-width: 350px;
+        margin: 0 auto;
+        display: block;
+    }
+    .page__three_wrapper img {
+        width: 300px;
+        height: 200px;
+    }
+    .page__three_wrapper_column_one,
+    .page__three_wrapper_column_two,
+    .page__three_wrapper_column_three {
+        margin-bottom: 20px;
+    }
+
+    /* page__five */
+    .page__five {
+        display: block;
+    }
+    .page__five_left_column_mersedes_benz_v_class {
+        text-align: center;
+    }
+    .page__five_right_column p{
+        margin-top: 230px;
+    }
+    .page__five_left_column_btn  {
+        max-width: 580px;
+        margin: 70px auto 0px auto;
+        text-align: center;
+    }
+    /* page__six_car */
+    .page__six_wrapper_car {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+    .page__six_car {
+        display: block;
+        width: 400px;
+        margin: -240px auto 0 auto;
+    }
+    /* page__seven */
+    .page__seven {
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 0 auto;
+    }
+    .page__seven_arrow a img{
+        margin-left: 35px;;
+    }
+    /* page__nine */
+    .page__nine {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+    /* page ten */
+    .page__ten {
+        max-width: 580px;
+        padding-bottom: 50px;
+    }
+    .page__ten_img img{
+        display: none;
+    }
+    .page__ten_form {
+        display: block;
+        text-align: center;
+    }
+    .submit_flex {
+        max-width: 350px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    /* footer */
+    .footer {
+        max-width: 580px;
+    }
+    .footer__information_right {
+        display: none;
+    }
+    .footer__information_left h3 {
+        padding-top: 50px;
+        font-size: 40px;
+    }
+    .footer__form_mail {
+        width: 580px;
+    }
+    .footer_phone, .footer_mail {
+        padding-top: 20px;
+    }
+    .footer__arrow_up {
+        margin: -15px auto  0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*  */
+}
+
